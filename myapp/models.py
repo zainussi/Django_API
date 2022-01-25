@@ -6,5 +6,5 @@ class QA(models.Model):
     def __str__(self):
         return {self.answer} , {self.question}
 
-class ExcelFile(models.Model):
-    file = models.FileField(upload_to="excel")
+#class ExcelFile(models.Model):
+ #   file = models.FileField(upload_to="csv")
